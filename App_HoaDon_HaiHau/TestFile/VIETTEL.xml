@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="invoice.xsl"?>
+<HDon>
+    <DLHDon Id="610fd056-8f1f-4461-b722-dd6df8c8e0ea">
+        <TTChung>
+            <PBan>2.0.0</PBan>
+            <THDon>Hóa đơn giá trị gia tăng</THDon>
+            <KHMSHDon>1</KHMSHDon>
+            <KHHDon>C23TXH</KHHDon>
+            <SHDon>70</SHDon>
+            <NLap>2023-04-26</NLap>
+            <DVTTe>VND</DVTTe>
+            <TGia>1.0</TGia>
+            <HTTToan>CK</HTTToan>
+            <MSTTCGP>0100109106</MSTTCGP>
+            <MSTDVNUNLHDon />
+            <TDVNUNLHDon />
+            <DCDVNUNLHDon />
+            <TTKhac>
+                <TTin>
+                    <DLieu />
+                    <KDLieu>string</KDLieu>
+                    <TTruong>Ghi chú</TTruong>
+                </TTin>
+                <TTin>
+                    <DLieu>Chưa thanh toán</DLieu>
+                    <KDLieu>string</KDLieu>
+                    <TTruong>Trạng thái thanh toán</TTruong>
+                </TTin>
+                <TTin>
+                    <DLieu>7IOOL1HEJ1H7BNC</DLieu>
+                    <KDLieu>string</KDLieu>
+                    <TTruong>Mã số bí mật</TTruong>
+                </TTin>
+                <TTin>
+                    <DLieu />
+                    <KDLieu>string</KDLieu>
+                    <TTruong>Ghi chú hóa đơn</TTruong>
+                </TTin>
+            </TTKhac>
+        </TTChung>
+        <NDHDon>
+            <NBan>
+                <Ten>CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI XUÂN HẢI</Ten>
+                <MST>0308875558</MST>
+                <DChi>214 Đường Số 11, Khu Phố 5, Phường Linh Xuân, Thành Phố Thủ Đức, Thành Phố Hồ
+                    Chí Minh</DChi>
+                <SDThoai>028 6282 9657</SDThoai>
+                <DCTDTu>hoaianpv@gmail.com</DCTDTu>
+                <STKNHang>31410000496411</STKNHang>
+                <TNHang>BIDV - CN Đông Sài Gòn</TNHang>
+                <Fax />
+                <Website />
+                <TTKhac>
+                    <TTin>
+                        <DLieu>Thủ Đức</DLieu>
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Quận, huyện người bán</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu>TPHCM</DLieu>
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Tỉnh/Thành phố người bán</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu>84</DLieu>
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Mã quốc gia người bán</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Link tra cứu người bán</TTruong>
+                    </TTin>
+                </TTKhac>
+            </NBan>
+            <NMua>
+                <Ten>CÔNG TY TNHH HẠ TẦNG GIAO THÔNG HẢI HẬU</Ten>
+                <MST>3600465612</MST>
+                <DChi>Số 137, Khu phố 03, Phường Tân Hạnh, Thành phố Biên Hòa, Tỉnh Đồng Nai, Việt
+                    Nam</DChi>
+                <MKHang>hh</MKHang>
+                <SDThoai />
+                <DCTDTu>ctyhaihau.hd@gmail.com</DCTDTu>
+                <HVTNMHang />
+                <STKNHang />
+                <TNHang />
+                <TTKhac>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Số fax người mua</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Quận Huyện người mua</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Tỉnh/Thành phố người mua</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Mã quốc gia người mua</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Loại giấy tờ người mua</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Số giấy tờ người mua</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu />
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Ngày sinh người mua</TTruong>
+                    </TTin>
+                </TTKhac>
+            </NMua>
+            <DSHHDVu>
+                <HHDVu>
+                    <TChat>1</TChat>
+                    <STT>1</STT>
+                    <MHHDVu>S6</MHHDVu>
+                    <THHDVu>Sắt Phi 6</THHDVu>
+                    <DVTinh>Kg</DVTinh>
+                    <SLuong>12300</SLuong>
+                    <DGia>17000</DGia>
+                    <TLCKhau />
+                    <STCKhau>0</STCKhau>
+                    <ThTien>209100000</ThTien>
+                    <TSuat>10%</TSuat>
+                    <TThue>20910000</TThue>
+                    <TTKhac>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Số lô</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Hạn dùng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Ghi chú dòng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>230010000</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Thành tiền thanh toán của hàng hóa</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>20910000</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Tiền thuế dòng (Tiền thuế GTGT)</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Chiết khấu lần 2</TTruong>
+                        </TTin>
+                    </TTKhac>
+                </HHDVu>
+                <HHDVu>
+                    <TChat>1</TChat>
+                    <STT>2</STT>
+                    <MHHDVu>S8</MHHDVu>
+                    <THHDVu>Sắt Phi 8</THHDVu>
+                    <DVTinh>Kg</DVTinh>
+                    <SLuong>15732</SLuong>
+                    <DGia>17000</DGia>
+                    <TLCKhau />
+                    <STCKhau>0</STCKhau>
+                    <ThTien>267444000</ThTien>
+                    <TSuat>10%</TSuat>
+                    <TThue>26744400</TThue>
+                    <TTKhac>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Số lô</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Hạn dùng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Ghi chú dòng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>294188400</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Thành tiền thanh toán của hàng hóa</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>26744400</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Tiền thuế dòng (Tiền thuế GTGT)</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Chiết khấu lần 2</TTruong>
+                        </TTin>
+                    </TTKhac>
+                </HHDVu>
+                <HHDVu>
+                    <TChat>1</TChat>
+                    <STT>3</STT>
+                    <MHHDVu>S10</MHHDVu>
+                    <THHDVu>Sắt Phi 10</THHDVu>
+                    <DVTinh>Kg</DVTinh>
+                    <SLuong>14420</SLuong>
+                    <DGia>17000</DGia>
+                    <TLCKhau />
+                    <STCKhau>0</STCKhau>
+                    <ThTien>245140000</ThTien>
+                    <TSuat>10%</TSuat>
+                    <TThue>24514000</TThue>
+                    <TTKhac>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Số lô</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Hạn dùng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Ghi chú dòng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>269654000</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Thành tiền thanh toán của hàng hóa</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>24514000</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Tiền thuế dòng (Tiền thuế GTGT)</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Chiết khấu lần 2</TTruong>
+                        </TTin>
+                    </TTKhac>
+                </HHDVu>
+                <HHDVu>
+                    <TChat>1</TChat>
+                    <STT>4</STT>
+                    <MHHDVu>S12</MHHDVu>
+                    <THHDVu>Sắt Phi 12</THHDVu>
+                    <DVTinh>Kg</DVTinh>
+                    <SLuong>8365</SLuong>
+                    <DGia>17000</DGia>
+                    <TLCKhau />
+                    <STCKhau>0</STCKhau>
+                    <ThTien>142205000</ThTien>
+                    <TSuat>10%</TSuat>
+                    <TThue>14220500</TThue>
+                    <TTKhac>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Số lô</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Hạn dùng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Ghi chú dòng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>156425500</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Thành tiền thanh toán của hàng hóa</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>14220500</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Tiền thuế dòng (Tiền thuế GTGT)</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Chiết khấu lần 2</TTruong>
+                        </TTin>
+                    </TTKhac>
+                </HHDVu>
+                <HHDVu>
+                    <TChat>1</TChat>
+                    <STT>5</STT>
+                    <MHHDVu>S14</MHHDVu>
+                    <THHDVu>Sắt Phi 14</THHDVu>
+                    <DVTinh>Kg</DVTinh>
+                    <SLuong>3698</SLuong>
+                    <DGia>17000</DGia>
+                    <TLCKhau />
+                    <STCKhau>0</STCKhau>
+                    <ThTien>62866000</ThTien>
+                    <TSuat>10%</TSuat>
+                    <TThue>6286600</TThue>
+                    <TTKhac>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Số lô</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Hạn dùng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Ghi chú dòng</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>69152600</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Thành tiền thanh toán của hàng hóa</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu>6286600</DLieu>
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Tiền thuế dòng (Tiền thuế GTGT)</TTruong>
+                        </TTin>
+                        <TTin>
+                            <DLieu />
+                            <KDLieu>string</KDLieu>
+                            <TTruong>Chiết khấu lần 2</TTruong>
+                        </TTin>
+                    </TTKhac>
+                </HHDVu>
+            </DSHHDVu>
+            <TToan>
+                <THTTLTSuat>
+                    <LTSuat>
+                        <TSuat>10%</TSuat>
+                        <TThue>92675500</TThue>
+                        <ThTien>926755000</ThTien>
+                    </LTSuat>
+                </THTTLTSuat>
+                <TgTCThue>926755000</TgTCThue>
+                <TgTThue>92675500</TgTThue>
+                <DSLPhi />
+                <TTCKTMai>0</TTCKTMai>
+                <TgTTTBSo>1019430500</TgTTTBSo>
+                <TgTTTBChu>Một tỷ không trăm mười chín triệu bốn trăm ba mươi nghìn năm trăm đồng</TgTTTBChu>
+                <TTKhac>
+                    <TTin>
+                        <DLieu>0</DLieu>
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Tổng tiền thuế tiêu thụ đặc biệt</TTruong>
+                    </TTin>
+                    <TTin>
+                        <DLieu>0</DLieu>
+                        <KDLieu>string</KDLieu>
+                        <TTruong>Tổng tiền phí</TTruong>
+                    </TTin>
+                </TTKhac>
+            </TToan>
+            <TTKhac>
+                <TTin>
+                    <DLieu>1019430500</DLieu>
+                    <KDLieu>string</KDLieu>
+                    <TTruong>Tổng tiền thanh toán bằng số</TTruong>
+                </TTin>
+                <TTin>
+                    <DLieu>Một tỷ không trăm mười chín triệu bốn trăm ba mươi nghìn năm trăm đồng</DLieu>
+                    <KDLieu>string</KDLieu>
+                    <TTruong>Tổng tiền thanh toán bằng chữ</TTruong>
+                </TTin>
+            </TTKhac>
+        </NDHDon>
+    </DLHDon>
+    <MCCQT Id="Id-9657800082eb4dc7b10a6da417448b48">0021987F644EDD4A9883ED7A0C6D0DCF3B</MCCQT>
+    <DSCKS>
+        <NBan>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="seller">
+                <SignedInfo>
+                    <CanonicalizationMethod
+                        Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                    <Reference URI="#610fd056-8f1f-4461-b722-dd6df8c8e0ea">
+                        <Transforms>
+                            <Transform
+                                Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                        <DigestValue>rZWzUGMK3QWHAIns6JMMfCsbaFo=</DigestValue>
+                    </Reference>
+                    <Reference URI="#TimeStamp">
+                        <Transforms>
+                            <Transform
+                                Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                        <DigestValue>zU7T837RWqIsLtexcLwGmd914kg=</DigestValue>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>
+                    UsBnbCzQc6u5K3MvYO++Sl2ud+Ryq0WL6TiZ6J1UTkbxa0L5i6X2KSJOo0pk7JTyixCkyV9Bs7yiGL/IkfoIhmRsWyzTUgioReWWsMxxKSsWe18ZZtMjbZzAaNbIdWnJeMSLhnYEk0Wz3DpUM/fSjCBKPKRFonVnMKVjZSmLkks=</SignatureValue>
+                <KeyInfo>
+                    <X509Data>
+                        <X509SubjectName>1.2.840.113549.1.9.1=#1620636f6e677479746e68686d7476746d7875616e68616940676d61696c2e636f6d,UID=MST:0308875558,CN=CÔNG
+                            TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI XUÂN HẢI,L=TPHCM,C=VN</X509SubjectName>
+                        <X509Certificate>
+                            MIIEOTCCAyGgAwIBAgIQVAT//rcDP7MW1nIgG4o89jANBgkqhkiG9w0BAQUFADBOMQswCQYDVQQGEwJWTjESMBAGA1UEBwwJSMOgIE7hu5lpMRYwFAYDVQQKEw1WaWV0dGVsIEdyb3VwMRMwEQYDVQQDEwpWaWV0dGVsLUNBMB4XDTIxMTIyODA1MDQxMloXDTI0MDUxMzEyMDUxMlowgbQxCzAJBgNVBAYTAlZOMQ4wDAYDVQQHDAVUUEhDTTFEMEIGA1UEAww7Q8OUTkcgVFkgVE5ISCBN4buYVCBUSMOATkggVknDik4gVEjGr8agTkcgTeG6oEkgWFXDgk4gSOG6okkxHjAcBgoJkiaJk/IsZAEBDA5NU1Q6MDMwODg3NTU1ODEvMC0GCSqGSIb3DQEJARYgY29uZ3R5dG5oaG10dnRteHVhbmhhaUBnbWFpbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIu/SxQhXiuJHMMl5Q2apjOmOhbh31C4M/EGUmgdoQkSDe/b6QtFwOB3htJheJRFW8fSEvACKBON50kDwZNbfp4fw4YGOt9PtYsVsxzvJyF/ObPqmVvas4bMFcA0SDagmYds/qJydqRlKnuvjH2nwghqe0tcCvfpE//NX9h8c1R5AgMBAAGjggEuMIIBKjA1BggrBgEFBQcBAQQpMCcwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnZpZXR0ZWwtY2Eudm4wHQYDVR0OBBYEFEPUA1jUkHkDoI3skRFiKoNgQ/PIMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAU/stBFOldp9kyDeSyCFzxXOy2srUwgZIGA1UdHwSBijCBhzCBhKAuoCyGKmh0dHA6Ly9jcmwudmlldHRlbC1jYS52bi9WaWV0dGVsLUNBLXYzLmNybKJSpFAwTjETMBEGA1UEAwwKVmlldHRlbC1DQTEWMBQGA1UECgwNVmlldHRlbCBHcm91cDESMBAGA1UEBwwJSMOgIE7hu5lpMQswCQYDVQQGEwJWTjAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQEFBQADggEBAHtE3aib/kxzrUuNDwVxHUFhHN0KHECRZvOk9uPH8m1SI+IfIHAgEHtq6dAeDjSUO4V11t4QyObtR8qVuxpZWjEgAU68b56eZMvdMP1dhlc1/cOjPB7wPKc1+ed1Vl+J1QXO9WWODSUvRAf2o8JSKMHSi01xask09/NqWgaEXfzr9IezpJJHS8xndSe+awst03PNBfyFyUnrYG7K2ovEkwXZ2HJ3+YDjZEh/kvdNCEgIDavouhXOcWmheJTdYDSzfHgrvi0gKovoJQFlrCOX9407jxbGxe0lUXXHeJONmrti8JijCi5T/KCQNsQKgUrXUsR6OXqjWVYgJ5le6jC86O8=</X509Certificate>
+                    </X509Data>
+                </KeyInfo>
+                <Object Id="TimeStamp">
+                    <SignatureProperties Id="id1">
+                        <SignatureProperty Id="id" Target="#seller">
+                            <SigningTime>2023-04-26T07:57:50</SigningTime>
+                        </SignatureProperty>
+                    </SignatureProperties>
+                </Object>
+            </Signature>
+        </NBan>
+        <NMua />
+        <CCKSKhac />
+        <CQT>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"
+                Id="Tct-fd5f21fa224f4acc8bbd5abc8e8f4645">
+                <SignedInfo>
+                    <CanonicalizationMethod
+                        Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                    <Reference URI="#610fd056-8f1f-4461-b722-dd6df8c8e0ea">
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                        <DigestValue>MGkYnXFfBEyQxx8EgUzw8fOMF93IRMutSmIi+OwGdl0=</DigestValue>
+                    </Reference>
+                    <Reference URI="#SigningTime-da96ae3163dd4d4482eb2ba5d2265a27">
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                        <DigestValue>CtAjmD4wUDWbjVvJhtJNHOmKhtpM2XkMBh4W/h5+0aQ=</DigestValue>
+                    </Reference>
+                    <Reference URI="#Id-9657800082eb4dc7b10a6da417448b48">
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                        <DigestValue>y3nc8igD0lVK0tvknJ7J0ha4mTG6cv+MoVE6Sb1qJ1M=</DigestValue>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>
+                    M1w+AlcD7PVVhFwXN/hqqs95rZmjtlcNxsW2Hnu2Uu3RkS4z8ygVTyZwi3Q9mxGbkjUJzvTapvQe+2kuNWfXB1SaNlO5LJHobB1jZnkxUsZcT1lbPnQQFzw7406ygw1qVjKHPHklv2i0V8Avkca3rvVWxpyOMPcRo4qpK3mDUqMDSA19M586TB6TNhnsn4O17I4zCjdtFHNx3JBZa0g6pZij0SbleQgbuwmeMiIMpY6ruydjcKuy2zHli7DyBSGHC3kcdDy8d6i0c79X2+k7I9Ht5Gb/e9dc0yhPNWAKM1vaj7QbKth82m5h/PQdhbsPpK2TZ8jGYGtr/b5mIGMipg==</SignatureValue>
+                <KeyInfo>
+                    <X509Data>
+                        <X509SubjectName>CN=TỔNG CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN</X509SubjectName>
+                        <X509Certificate>
+                            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</X509Certificate>
+                    </X509Data>
+                </KeyInfo>
+                <Object Id="SigningTime-da96ae3163dd4d4482eb2ba5d2265a27">
+                    <SignatureProperties>
+                        <SignatureProperty Target="signatureProperties">
+                            <SigningTime>2023-04-26T07:57:55</SigningTime>
+                        </SignatureProperty>
+                    </SignatureProperties>
+                </Object>
+            </Signature>
+        </CQT>
+    </DSCKS>
+</HDon>

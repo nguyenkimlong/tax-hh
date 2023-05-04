@@ -1,0 +1,139 @@
+<HDon>
+    <DLHDon Id="87b943b4-ac7d-4df9-8148-596556f55bdd">
+        <TTChung>
+            <PBan>2.0.0</PBan>
+            <THDon>Hóa đơn giá trị gia tăng</THDon>
+            <KHMSHDon>1</KHMSHDon>
+            <KHHDon>C23TAH</KHHDon>
+            <SHDon>00000061</SHDon>
+            <NLap>2023-01-09</NLap>
+            <DVTTe>VND</DVTTe>
+            <TGia>1</TGia>
+            <HTTToan>Tiền mặt/Chuyển khoản</HTTToan>
+            <MSTTCGP>0101360697</MSTTCGP>
+        </TTChung>
+        <NDHDon>
+            <NBan>
+                <Ten>CÔNG TY CỔ PHẦN VẬT LIỆU VÀ XÂY DỰNG BÌNH DƯƠNG</Ten>
+                <MST>3700148529</MST>
+                <DChi>Số 306, Đường ĐT743, Phường Bình Thắng, Thành phố Dĩ An, Tỉnh Bình Dương, Việt
+                    Nam</DChi>
+            </NBan>
+            <NMua>
+                <Ten>CÔNG TY TNHH HẠ TẦNG GIAO THÔNG HẢI HẬU</Ten>
+                <MST>3600465612</MST>
+                <DChi>137 KHU PHỐ 3, PHƯỜNG TÂN HẠNH, THÀNH PHỐ BIÊN HÒA, TỈNH ĐỒNG NAI</DChi>
+            </NMua>
+            <DSHHDVu>
+                <HHDVu>
+                    <TChat>1</TChat>
+                    <STT>1</STT>
+                    <MHHDVu>HH0016</MHHDVu>
+                    <THHDVu>Xăng Ron 95</THHDVu>
+                    <DVTinh>Lít</DVTinh>
+                    <SLuong>600</SLuong>
+                    <DGia>20136.3636</DGia>
+                    <TLCKhau>0</TLCKhau>
+                    <STCKhau>0</STCKhau>
+                    <ThTien>12081818</ThTien>
+                    <TSuat>10%</TSuat>
+                </HHDVu>
+            </DSHHDVu>
+            <TToan>
+                <THTTLTSuat>
+                    <LTSuat>
+                        <TSuat>10%</TSuat>
+                        <ThTien>12081818</ThTien>
+                        <TThue>1208182</TThue>
+                    </LTSuat>
+                </THTTLTSuat>
+                <TgTCThue>12081818</TgTCThue>
+                <TgTThue>1208182</TgTThue>
+                <TTCKTMai>0</TTCKTMai>
+                <TgTTTBSo>13290000</TgTTTBSo>
+                <TgTTTBChu>Mười ba triệu hai trăm chín mươi nghìn đồng chẵn./.</TgTTTBChu>
+            </TToan>
+        </NDHDon>
+    </DLHDon>
+    <MCCQT Id="Id-69f385c413354026a708ccfb17ea1d90">006974B9A0F1E646A98D09671093536D3B</MCCQT>
+    <DSCKS>
+        <NBan>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <SignedInfo>
+                    <CanonicalizationMethod
+                        Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+                    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                    <Reference URI="#87b943b4-ac7d-4df9-8148-596556f55bdd">
+                        <Transforms>
+                            <Transform
+                                Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                        <DigestValue>sQtwzCgu3A+YyS7dj75/hdJNfLU=</DigestValue>
+                    </Reference>
+                    <Reference URI="#TimeStamp">
+                        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                        <DigestValue>Yt0gm7+RJK5k8RTuqK0DXEiSxbE=</DigestValue>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>
+                    XZi9fVzh4nrn6sqcqUfSL7eSOUD5zll80QfH75fi1W36eGAB1M4GjWAz1EplkDFrl4nPpVAd26mit2NgYICNpYAwpBE8ld4RWQOteQUrQt8e0YUiiF+MSdt0qZ7yZuewV273Xc2qB1CXBIFmmMJuIxntCOBbLdnlV7oD/JC31Ir6pfQqm68BsUc0AdjoRTKb4kDS4HLFcT3FCT8eVS7SnkGhtSSifYUwdzgJiN6ncBl6CS+fjcRJD3e7eQhvdex131s8kmNyM3xFh5upYY7/f/aJtTCt17+EE0R4FB8DZmfLLKpTrpKMJV4BJpHXdAT6qwkH26AVBJy9TSFudAWkqw==</SignatureValue>
+                <KeyInfo>
+                    <X509Data>
+                        <X509SubjectName>C=VN,ST=Bình Dương,CN=CÔNG TY CỔ PHẦN VẬT LIỆU VÀ XÂY DỰNG
+                            BÌNH DƯƠNG,UID=MST:3700148529</X509SubjectName>
+                        <X509Certificate>
+                            MIIEvzCCA6egAwIBAgIQVAM0ZZr41qmxDxFZOnqykzANBgkqhkiG9w0BAQUFADBJMQswCQYDVQQGEwJWTjEOMAwGA1UEBxMFSGFub2kxGTAXBgNVBAoTEEJrYXYgQ29ycG9yYXRpb24xDzANBgNVBAMTBkJrYXZDQTAeFw0yMjA3MTIwMDIwMjBaFw0yNDA1MTAwODAzMDdaMIGPMR4wHAYKCZImiZPyLGQBAQwOTVNUOjM3MDAxNDg1MjkxSDBGBgNVBAMMP0PDlE5HIFRZIEPhu5QgUEjhuqZOIFbhuqxUIExJ4buGVSBWw4AgWMOCWSBE4buwTkcgQsOMTkggRMavxqBORzEWMBQGA1UECAwNQsOsbmggRMawxqFuZzELMAkGA1UEBhMCVk4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtOCkn5xlJHvp2zAIZn6PqLF+1Wf4NZXqiseWdkXn7gESY9HiMCcLynkztwtILibNWLOyjwHRi5CqG36UhqMGXmRFMtQ3krDtQiw8On2gPTiWBNvb3KrMBH39g049fUTculFVoscJhdIOSXeAgE9SbooQRQDSp7AvZDQNfFJdWF8cYexS/twnNmXmg1GCky8EPZp/eHO1yDTGBV2omj9zi/PfjhEtTjryOY+9vb2L5Rw/f3NDoMfPiRfSG7z0H5hgHKSQSZgm1qYwG4ozIHqm28bAc4Enjl8f6xnhfb/pukcN/JI5pidDBkcGqDwa7lbSIvczz8E0402tDkjIF2xcLAgMBAAGjggFaMIIBVjAxBggrBgEFBQcBAQQlMCMwIQYIKwYBBQUHMAGGFWh0dHA6Ly9vY3NwLmJrYXZjYS52bjAdBgNVHQ4EFgQUx+Sx/QGaUjM2NQwqE48CBPPtPkIwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQesA9Il9/Qw2enRoQ7WDuIDVOUhjB/BgNVHR8EeDB2MHSgI6Ahhh9odHRwOi8vY3JsLmJrYXZjYS52bi9Ca2F2Q0EuY3Jsok2kSzBJMQ8wDQYDVQQDDAZCa2F2Q0ExGTAXBgNVBAoMEEJrYXYgQ29ycG9yYXRpb24xDjAMBgNVBAcMBUhhbm9pMQswCQYDVQQGEwJWTjAOBgNVHQ8BAf8EBAMCBPAwHwYDVR0lBBgwFgYIKwYBBQUHAwQGCisGAQQBgjcKAwwwIQYDVR0RBBowGIEWbnF1b2NiaW5oZG5uQGdtYWlsLmNvbTANBgkqhkiG9w0BAQUFAAOCAQEAOYLNIIV7wlw+7LFXOnG86xUlcEGHkz9avq4W+UxRf5t2QxDDd782KfUZwGx/+M5SG/DS3YOZhgwwoFLOV6xliXUi+KJ6AbbU4v+gTGYDZZMzlBcAv6HreOUekaGPSHYsFNv/G3MhtdGdhwsi9fbPjBk3+EIDbfnWCcqs3Ns+j5ex56Amp6buxvkxhvOVuuPxqMGRh/zNNdzU6nC4BhIuQaV/uqbsqbNzmWmIbvAXMr7zdWl0llXqRfhykz7u7dum/JUUsCdbVugV0vhan/u20ODgWLB/KxT2Zk9gtL79CNcbnjan4l+gk/ZEqKlDSALBKmUeAX0aXelRFcVFcRAGqA==</X509Certificate>
+                    </X509Data>
+                </KeyInfo>
+                <Object Id="TimeStamp">
+                    <SignatureProperties>
+                        <SignatureProperty Target="">
+                            <SigningTime>2023-02-01T14:38:25</SigningTime>
+                        </SignatureProperty>
+                    </SignatureProperties>
+                </Object>
+            </Signature>
+        </NBan>
+        <NMua />
+        <CCKSKhac />
+        <CQT>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"
+                Id="Tct-7b1c8897841f48d5aab78d8e314739d2">
+                <SignedInfo>
+                    <CanonicalizationMethod
+                        Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                    <Reference URI="#87b943b4-ac7d-4df9-8148-596556f55bdd">
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                        <DigestValue>6R9VCFp84m1/3uvnSH5Omy9PIDeqA6YJvSaXzpT/aog=</DigestValue>
+                    </Reference>
+                    <Reference URI="#SigningTime-d8cd3702751b4a3e8407aa86a69b1437">
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                        <DigestValue>IB41U+lFiKNPLgByYbONzA0wcXjuQ9eDVkPYkb2p9Zs=</DigestValue>
+                    </Reference>
+                    <Reference URI="#Id-69f385c413354026a708ccfb17ea1d90">
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                        <DigestValue>WjrK27IBxTrqOy77kA62MqJZH0WWNfOZPQotRQnpLZg=</DigestValue>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>
+                    Xa8HCz7kzasGTliNGD5rhpmCV6sls3Y8Q9hLl/lczZq8uV+CDuHuk9vpnRUYgAGP6KivnQzTs6E0vfNiidjQXP21oE2KjdWrkTGx8fX/LODRWoYQU0vh0ppFHXCO2KDzw2diEmZ9aT2/ABnSyfEUhUI1WTcJ7TAfi0wTuT/4gEubOLFOuhClJr5zgIx2Prx5FRANNFFyJKYZeAGJbVXLDqP+FemFI0bbYUi1zCkwRR/+VHr8a2DStXsHhWEloiDYmv5YLKMVFHSaOWkH5yi+6drLrGDFeOhk3byy6lU6I+WPJ/whhLI0gDxgcOfEuFFH+1Aw/V9mCdpVRJ7bPFzGqQ==</SignatureValue>
+                <KeyInfo>
+                    <X509Data>
+                        <X509SubjectName>CN=TỔNG CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN</X509SubjectName>
+                        <X509Certificate>
+                            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</X509Certificate>
+                    </X509Data>
+                </KeyInfo>
+                <Object Id="SigningTime-d8cd3702751b4a3e8407aa86a69b1437">
+                    <SignatureProperties>
+                        <SignatureProperty Target="signatureProperties">
+                            <SigningTime>2023-02-01T14:37:57</SigningTime>
+                        </SignatureProperty>
+                    </SignatureProperties>
+                </Object>
+            </Signature>
+        </CQT>
+    </DSCKS>
+</HDon>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TDiep>
+    <TTChung>
+        <PBan>2.0.0</PBan>
+        <MNGui>TCT</MNGui>
+        <MNNhan>V0104128565</MNNhan>
+        <MLTDiep>202</MLTDiep>
+        <MTDiep>TCT4DB20BD8A1DC4D9B98FFD51BA4F93F97</MTDiep>
+        <MTDTChieu>V0104128565C35A3548B7184F0886E0C2DC41B64D2C</MTDTChieu>
+        <MST>0303271633</MST>
+        <SLuong>1</SLuong>
+    </TTChung>
+    <DLieu>
+        <HDon>
+            <DLHDon Id="_69662">
+                <TTChung>
+                    <PBan>2.0.0</PBan>
+                    <THDon>HÓA ĐƠN GIÁ TRỊ GIA TĂNG</THDon>
+                    <KHMSHDon>1</KHMSHDon>
+                    <KHHDon>C23THT</KHHDon>
+                    <SHDon>00011566</SHDon>
+                    <NLap>2023-04-28</NLap>
+                    <DVTTe>VND</DVTTe>
+                    <TGia>1</TGia>
+                    <HTTToan>TM/CK</HTTToan>
+                    <MSTTCGP>0104128565</MSTTCGP>
+                    <TTKhac>
+                        <TTin>
+                            <TTruong>Lệnh RO</TTruong>
+                            <DLieu>S20230425.123</DLieu>
+                            <KDLieu>string</KDLieu>
+                        </TTin>
+                        <TTin>
+                            <TTruong>Mã KH</TTruong>
+                            <DLieu>CO13040181</DLieu>
+                            <KDLieu>string</KDLieu>
+                        </TTin>
+                    </TTKhac>
+                </TTChung>
+                <NDHDon>
+                    <NBan>
+                        <Ten>CÔNG TY TNHH TOYOTA HIROSHIMA TÂN CẢNG - HT</Ten>
+                        <MST>0303271633</MST>
+                        <DChi>Số 220 Bis, Đường Điện Biên Phủ, Phường 22, Quận Bình Thạnh, TP. Hồ
+                            Chí Minh, Việt Nam</DChi>
+                        <SDThoai>02835123939</SDThoai>
+                        <STKNHang>0071004339954</STKNHang>
+                        <TNHang>Ngân hàng Vietcombank, CN TP.HCM</TNHang>
+                    </NBan>
+                    <NMua>
+                        <Ten>CÔNG TY TNHH HẠ TẦNG GIAO THÔNG HẢI HẬU</Ten>
+                        <MST>3600465612</MST>
+                        <DChi>Số 137, KP 3, Phường Tân Hạnh, Thành phố Biên Hoà, Tỉnh Đồng Nai, Việt
+                            Nam</DChi>
+                    </NMua>
+                    <DSHHDVu>
+                        <HHDVu>
+                            <TChat>1</TChat>
+                            <STT>1</STT>
+                            <THHDVu>Tháo lắp ga lăng</THHDVu>
+                            <DVTinh>Lần</DVTinh>
+                            <SLuong>1</SLuong>
+                            <DGia>200000</DGia>
+                            <TLCKhau>0</TLCKhau>
+                            <STCKhau>0</STCKhau>
+                            <ThTien>200000</ThTien>
+                            <TSuat>10%</TSuat>
+                        </HHDVu>
+                        <HHDVu>
+                            <TChat>1</TChat>
+                            <STT>2</STT>
+                            <THHDVu>Sơn ga lăng</THHDVu>
+                            <DVTinh>Lần</DVTinh>
+                            <SLuong>1</SLuong>
+                            <DGia>800000</DGia>
+                            <TLCKhau>0</TLCKhau>
+                            <STCKhau>0</STCKhau>
+                            <ThTien>800000</ThTien>
+                            <TSuat>10%</TSuat>
+                        </HHDVu>
+                        <HHDVu>
+                            <TChat>1</TChat>
+                            <STT>3</STT>
+                            <THHDVu>Đánh bóng bề mặt sơn bên ngoài &amp; vệ sinh tất cả các kính xe
+                                - vệ sinh tất cả các góc cạnh như: chân ron, bản lề cửa, cốp sau,
+                                capo, nắp xăng</THHDVu>
+                            <DVTinh>Lần</DVTinh>
+                            <SLuong>1</SLuong>
+                            <DGia>2950000</DGia>
+                            <TLCKhau>0</TLCKhau>
+                            <STCKhau>0</STCKhau>
+                            <ThTien>2950000</ThTien>
+                            <TSuat>10%</TSuat>
+                        </HHDVu>
+                        <HHDVu>
+                            <TChat>1</TChat>
+                            <STT>4</STT>
+                            <THHDVu>Phim Cách Nhiệt Kính Hông</THHDVu>
+                            <DVTinh>Cặp</DVTinh>
+                            <SLuong>1</SLuong>
+                            <DGia>1818182</DGia>
+                            <TLCKhau>0</TLCKhau>
+                            <STCKhau>0</STCKhau>
+                            <ThTien>1818182</ThTien>
+                            <TSuat>10%</TSuat>
+                        </HHDVu>
+                    </DSHHDVu>
+                    <TToan>
+                        <THTTLTSuat>
+                            <LTSuat>
+                                <TSuat>10%</TSuat>
+                                <ThTien>5768182</ThTien>
+                                <TThue>576818</TThue>
+                            </LTSuat>
+                        </THTTLTSuat>
+                        <TgTCThue>5768182</TgTCThue>
+                        <TgTThue>576818</TgTThue>
+                        <TTCKTMai>0</TTCKTMai>
+                        <TgTTTBSo>6345000</TgTTTBSo>
+                        <TgTTTBChu>Sáu triệu ba trăm bốn mươi lăm nghìn đồng</TgTTTBChu>
+                    </TToan>
+                </NDHDon>
+            </DLHDon>
+            <MCCQT Id="Id-cbf0af46fe31420f871b3ba53f8a188d">001BC5367C69F146ED8BED02A4CDF0CE33</MCCQT>
+            <DSCKS>
+                <NBan>
+                    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+                        <SignedInfo>
+                            <CanonicalizationMethod
+                                Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                            <SignatureMethod
+                                Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                            <Reference URI="#_69662">
+                                <Transforms>
+                                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                </Transforms>
+                                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                <DigestValue>2taFrFIL2wfKinICC//QGfilQrikf2V3vHlqkzfm1/Y=</DigestValue>
+                            </Reference>
+                            <Reference URI="#SigningTime-NBan-69662">
+                                <Transforms>
+                                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                                </Transforms>
+                                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                <DigestValue>KpXUF9fTsCaosaA28JB2yS8ucfG2cV7trrViQqc4qnA=</DigestValue>
+                            </Reference>
+                        </SignedInfo>
+                        <SignatureValue>
+                            AnhAn+VuEJDHdOFQ9mUhizcBjjZ1o6G5pgoziX7t875XwgXChQptp8Xli9ANuuuRyxW7fe+oN6t4gEd5BG2Zf+Id4ux0bRwn8cd8JZrL1q7ffbVJKrwDRYTcBaBWRo5ipEik9HpPwK1hRL1XTcjo8Y6wKDq4nZQtf9Do/bgxSfQHL5hhOujkAZLkXz1RB/mXEQCUC5bIerc6yZiVKG1heAagmmQErs8gxT43sujESyfCpFn61BKc1EeHageEOBKT6HEYOPmN+GcRTET4/UwAFtjFTZFmqy98XlIgUfJcSWJWHiKpcjTkekXJgxJVVeNT+KN3o5paKmaPiBLwYKkdsA==</SignatureValue>
+                        <KeyInfo>
+                            <X509Data>
+                                <X509SubjectName>E=admin.thtc@toyota-tancang.com, MST:0303271633,
+                                    CN=CÔNG TY TNHH TOYOTA HIROSHIMA TÂN CẢNG - HT, O=CÔNG TY TNHH
+                                    TOYOTA HIROSHIMA TÂN CẢNG - HT, L=Số 220 Bis, Đường Điện Biên
+                                    Phủ, Phường 22, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt
+                                    Nam, ST=TP Hồ Chí Minh, C=VN</X509SubjectName>
+                                <X509Certificate>
+                                    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</X509Certificate>
+                            </X509Data>
+                        </KeyInfo>
+                        <Object Id="SigningTime-NBan-69662">
+                            <SignatureProperties xmlns="">
+                                <SignatureProperty Id="SignatureProperty-NBan-69662"
+                                    Target="#NBan-69662">
+                                    <SigningTime>2023-04-28T14:25:41</SigningTime>
+                                </SignatureProperty>
+                            </SignatureProperties>
+                        </Object>
+                    </Signature>
+                </NBan>
+                <CQT>
+                    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"
+                        Id="Tct-945feaf5962f4c09a6a2e643f0877664">
+                        <SignedInfo>
+                            <CanonicalizationMethod
+                                Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                            <SignatureMethod
+                                Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                            <Reference URI="#_69662">
+                                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                <DigestValue>2taFrFIL2wfKinICC//QGfilQrikf2V3vHlqkzfm1/Y=</DigestValue>
+                            </Reference>
+                            <Reference URI="#SigningTime-f56a25dd818e4e628cb5185ba580e33f">
+                                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                <DigestValue>5H3z9QLVjBhs4/+AUoyjQM+lGH3C9UxWuSymsNLE4Fk=</DigestValue>
+                            </Reference>
+                            <Reference URI="#Id-cbf0af46fe31420f871b3ba53f8a188d">
+                                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                                <DigestValue>twWAbamFa6TTNJzpVWDRHM7DLbfchXkVEsnacJQIJ8Y=</DigestValue>
+                            </Reference>
+                        </SignedInfo>
+                        <SignatureValue>
+                            RtoqIdwQ4imb08jQFzDbVOdEojHyDkJUTd0Ku8baDjzQpK87q8Qmi/iV6q8xBdqcloWhAcUo9L3VvCcKgQNHlqLROmy1Ko4Orr+kugy1fasVRabJiuiWiIivNPcV7FDtUuoMVp5mpW+dXRLUxVSJVYQ/oaLwtkHb/akh/xWhbrYRggiGfLzclpib/DRoSkzRzD6Vf7mHukbfjb/I0u/9eXOOzrdvm4nUxMZUQMVr8vxQKF+OhrjXcKxeqorxOXF+ojLm0smG5kBDG15VliUY3Oqb0No7RQyIdLmbHjIu8UOrB1oP0bja3UPz7Uwqv+9tuz+wljbTnobHPWIaDarfoA==</SignatureValue>
+                        <KeyInfo>
+                            <X509Data>
+                                <X509SubjectName>CN=TỔNG CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN</X509SubjectName>
+                                <X509Certificate>
+                                    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</X509Certificate>
+                            </X509Data>
+                        </KeyInfo>
+                        <Object Id="SigningTime-f56a25dd818e4e628cb5185ba580e33f">
+                            <SignatureProperties>
+                                <SignatureProperty Target="signatureProperties">
+                                    <SigningTime>2023-04-28T14:25:47</SigningTime>
+                                </SignatureProperty>
+                            </SignatureProperties>
+                        </Object>
+                    </Signature>
+                </CQT>
+            </DSCKS>
+        </HDon>
+    </DLieu>
+</TDiep>
