@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/App_HoaDon_HaiHau/bin
+/.vs/App_HoaDon_HaiHau
+/App_HoaDon_HaiHau/obj
+/App_HoaDon_HaiHau/Properties/PublishProfiles
