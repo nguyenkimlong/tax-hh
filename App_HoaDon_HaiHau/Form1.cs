@@ -282,7 +282,10 @@ namespace App_HoaDon_HaiHau
                         data = (HDon)serializerModel.Deserialize(reader);
 
 
-                        var anyDSCKS = dataRaw.OuterXml.IndexOf("</CQT>") >= 0;
+                        var anyDSCKS = dataRaw.OuterXml.IndexOf("</Signature>") >= 0 
+                            && dataRaw.OuterXml.IndexOf("</SignedInfo>") >= 0 
+                            && dataRaw.OuterXml.IndexOf("</SignatureValue>") >= 0
+                            && dataRaw.OuterXml.IndexOf("</X509Certificate>") >= 0;
 
                         if (anyDSCKS)
                         {
@@ -428,8 +431,26 @@ namespace App_HoaDon_HaiHau
                 foreach (var item in data.NDHDon.DSHHDVu.HHDVu)
                 {
                     string percentString = item.TSuat;
-                    decimal percent = decimal.Parse(percentString.TrimEnd('%'), NumberStyles.AllowDecimalPoint | NumberStyles.AllowThousands) / 100;
-                    var TienThueGTGT = Math.Round(item.ThTien * percent, 1);
+                    decimal percent = 0
+                        , TienThueGTGT = 0
+                        ;
+                    try
+                    {
+                        if (percentString.Trim() == "KCT")
+                        {
+                            percent = 0;
+                            TienThueGTGT = 0;
+                        }
+                        else
+                        {
+                            percent = decimal.Parse(percentString.TrimEnd('%'), NumberStyles.AllowDecimalPoint | NumberStyles.AllowThousands) / 100;
+                            TienThueGTGT = Math.Round(item.ThTien * percent, 1);
+                        }
+                    }
+                    catch
+                    {
+                    }
+
 
 
 
