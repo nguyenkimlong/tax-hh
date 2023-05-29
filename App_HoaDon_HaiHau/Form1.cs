@@ -25,11 +25,13 @@ namespace App_HoaDon_HaiHau
     {
         private ucCompany _ucCompany;
         private ucTaxXML _ucTaxXML;
-        public Form1(ucCompany ucCompany, ucTaxXML ucTaxXML)
+        private ucHoaDonGTGT _ucHoaDonGTGT;
+        public Form1(ucCompany ucCompany, ucTaxXML ucTaxXML, ucHoaDonGTGT ucHoaDonGTGT)
         {
             InitializeComponent();
-            this._ucCompany = ucCompany;
-            _ucTaxXML = ucTaxXML;   
+            _ucCompany = ucCompany;
+            _ucTaxXML = ucTaxXML;
+            _ucHoaDonGTGT = ucHoaDonGTGT;   
         }
 
         private void btnDsCongTy_Click(object sender, EventArgs e)
@@ -55,6 +57,19 @@ namespace App_HoaDon_HaiHau
             }
             else
                 _ucTaxXML.BringToFront();
+        }
+
+        private void btnHoadon_Click(object sender, EventArgs e)
+        {
+
+            if (!panelUser.Controls.Contains(_ucHoaDonGTGT))
+            {
+                panelUser.Controls.Add(_ucHoaDonGTGT);
+                _ucHoaDonGTGT.Dock = DockStyle.Fill;
+                _ucHoaDonGTGT.BringToFront();
+            }
+            else
+                _ucHoaDonGTGT.BringToFront();
         }
     }
 }

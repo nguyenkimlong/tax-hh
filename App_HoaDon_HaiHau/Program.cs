@@ -69,6 +69,7 @@ namespace App_HoaDon_HaiHau
                     services.AddSingleton<Form1>();
                     services.AddSingleton<ucCompany>();
                     services.AddSingleton<ucTaxXML>();
+                    services.AddSingleton<ucHoaDonGTGT>();
 
                     //services.AddSingleton<ICommand, MakeSandwichCommand>();
 

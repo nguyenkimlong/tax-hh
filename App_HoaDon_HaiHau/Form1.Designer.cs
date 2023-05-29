@@ -34,6 +34,7 @@
             this.btnXuatHoaDon = new System.Windows.Forms.Button();
             this.panelUser = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHoadon = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,12 +92,23 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnHoadon);
             this.panel2.Controls.Add(this.btnXuatHoaDon);
             this.panel2.Controls.Add(this.btnDsCongTy);
             this.panel2.Location = new System.Drawing.Point(12, 98);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(197, 598);
             this.panel2.TabIndex = 11;
+            // 
+            // btnHoadon
+            // 
+            this.btnHoadon.Location = new System.Drawing.Point(0, 73);
+            this.btnHoadon.Name = "btnHoadon";
+            this.btnHoadon.Size = new System.Drawing.Size(194, 29);
+            this.btnHoadon.TabIndex = 12;
+            this.btnHoadon.Text = "Hóa Đơn";
+            this.btnHoadon.UseVisualStyleBackColor = true;
+            this.btnHoadon.Click += new System.EventHandler(this.btnHoadon_Click);
             // 
             // Form1
             // 
@@ -124,5 +136,6 @@
         private Button btnXuatHoaDon;
         private Panel panelUser;
         private Panel panel2;
+        private Button btnHoadon;
     }
 }

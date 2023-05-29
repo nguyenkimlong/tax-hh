@@ -10,6 +10,9 @@
     <Compile Update="Screen\Company.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Screen\HoaDonGTGT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Screen\TaxXML.cs">
       <SubType>UserControl</SubType>
     </Compile>

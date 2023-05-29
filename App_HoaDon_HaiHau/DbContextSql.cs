@@ -17,6 +17,7 @@ namespace App_HoaDon_HaiHau
             Database.EnsureCreated();
         }
         public DbSet<CongTy> CongTy { get; set; }
+        public DbSet<HoaDon> HoaDon { get; set; }
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //    => optionsBuilder.UseSqlite("Data Source=thuedb.db");
 
