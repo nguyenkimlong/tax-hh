@@ -1,25 +1,29 @@
-name: Upload dotnet package
+name: dotnet package
 
-on:
-  release:
-    types: [created]
+on: [push]
 
 jobs:
-  deploy:
+  build:
+
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '6.0.x' # SDK Version to use.
-          source-url: https://nuget.pkg.github.com/<owner>/index.json
-        env:
-          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: dotnet build --configuration Release <my project>
-      - name: Create the package
-        run: dotnet pack --configuration Release <my project>
-      - name: Publish the package to GPR
-        run: dotnet nuget push <my project>/bin/Release/*.nupkg
+    strategy:
+      matrix:
+        dotnet-version: [ '3.1.x', '6.0.x' ]
+
+      steps:
+        - uses: actions/checkout@v3
+        - name: Setup dotnet
+          uses: actions/setup-dotnet@v3
+          with:
+            dotnet-version: ${{ matrix.dotnet-version }}
+        - name: Install dependencies
+          run: dotnet restore
+        - name: Test with dotnet
+          run: dotnet test --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
+        - name: Upload dotnet test results
+          uses: actions/upload-artifact@v3
+          with:
+            name: dotnet-results-${{ matrix.dotnet-version }}
+            path: TestResults-${{ matrix.dotnet-version }}
+          # Use always() to always run this step to publish test results when there are test failures
+          if: ${{ always() }}
