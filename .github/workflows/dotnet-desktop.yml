@@ -113,3 +113,17 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
+  release:
+    runs-on: windows-latest
+    name: A job to run VSTest
+    steps:
+      - name: Download tests binary zip
+        run: powershell Invoke-WebRequest -Uri "https://localworker.blob.core.windows.net/win-x64/tests.zip" -OutFile "./tests.zip"
+      - name: Unzip tests binary
+        run: powershell Expand-Archive -Path tests.zip -DestinationPath ./
+      - name: Run tests
+        uses: microsoft-approved-actions/vstest@master
+        with:
+          testAssembly: CloudTest.DefaultSamples*.dll
+          searchFolder: ./tests/
+          runInParallel: true
